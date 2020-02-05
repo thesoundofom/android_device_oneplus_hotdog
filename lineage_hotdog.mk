@@ -18,7 +18,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_hotdog
 PRODUCT_DEVICE := hotdog
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus 7T Pro
+PRODUCT_MODEL := OnePlus 7T Pro NR
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
@@ -30,10 +30,10 @@ TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
 # Build info
-BUILD_FINGERPRINT := "OnePlus/OnePlus7TPro_EEA/OnePlus7TPro:10/QKQ1.190716.003/1910120055:user/release-keys"
+BUILD_FINGERPRINT := "OnePlus/OnePlus7TProNR/OnePlus7TProNR:10/QKQ1.190716.003/2001101147:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=OnePlus7TPro \
-    PRODUCT_NAME=OnePlus7TPro \
-    PRIVATE_BUILD_DESC="OnePlus7TPro_EEA-user 10 QKQ1.190716.003 1910120055 release-keys"
+    TARGET_DEVICE=OnePlus7TProNR \
+    PRODUCT_NAME=OnePlus7TProNR \
+    PRIVATE_BUILD_DESC="OnePlusT7ProNR-user 10 QKQ1.190716.003 2001101147 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
